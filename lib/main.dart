@@ -1,9 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:riverpod_parctice/state_model/todo_model.dart';
-import 'package:riverpod_parctice/view/count.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:riverpod_parctice/view/search.dart';
-import 'package:riverpod_parctice/view/todo.dart';
 
 void main() {
   runApp(
