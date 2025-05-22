@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:riverpod_parctice/view/isSelected.dart';
 import 'package:riverpod_parctice/view/search.dart';
+import 'package:riverpod_parctice/view/single_selection_screen.dart';
 
 void main() {
   runApp(
@@ -20,7 +22,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: SearchFilterPage(), 
+      home: SelectCatagoryScreen(), 
     );
   }
 }
